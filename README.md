@@ -2,6 +2,8 @@
 
 A PowerShell module for interacting with the NetSapiens API to manage subscribers, devices, addresses, and call queues.
 
+This module requires PowerShell 7.0 or later, but should be cross-platform.
+
 ## Installation
 
 Place the `NetSapiensAPI` module folder next to your script files if not installing through official PowerShell means. The module is required to be in the same directory as any scripts using it.
