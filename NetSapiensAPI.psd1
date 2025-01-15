@@ -13,7 +13,7 @@
     Author = 'David Szpunar'
 
     # Company or vendor of this module
-    CompanyName = 'ServantVoice'
+    CompanyName = ''
 
     # Copyright statement for this module
     Copyright = '(c) 2025 David Szpunar. All rights reserved.'
