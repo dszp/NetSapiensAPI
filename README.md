@@ -4,6 +4,8 @@ A PowerShell module for interacting with the NetSapiens API to manage subscriber
 
 This module requires PowerShell 7.0 or later, but should be cross-platform.
 
+This module is based on the NetSapiens ns-api version 1 as defined at https://api.netsapiens.com/ns-api/webroot/apidoc/.
+
 ## Installation
 
 Place the `NetSapiensAPI` module folder next to your script files if not installing through official PowerShell means. The module is required to be in the same directory as any scripts using it.
