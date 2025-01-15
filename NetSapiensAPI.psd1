@@ -60,13 +60,13 @@
             Tags = @('NetSapiens', 'API', 'VoIP', 'Telephony')
 
             # A URL to the license for this module.
-            LicenseUri = ''
+            LicenseUri = 'https://github.com/dszp/NetSapiensAPI/blob/main/LICENSE'
 
             # A URL to the main website for this project.
-            ProjectUri = ''
+            ProjectUri = 'https://github.com/dszp/NetSapiensAPI'
 
             # ReleaseNotes of this module
-            ReleaseNotes = ''
+            ReleaseNotes = 'Version 0.1.0 of this module contains the initial release where most Get functions work and the New-NSDevice function works. It requires PowerShell 7.0 or later.'
         }
     }
 }
