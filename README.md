@@ -6,6 +6,22 @@ This module requires PowerShell 7.0 or later, but should be cross-platform.
 
 This module is based on the NetSapiens ns-api version 1 as defined at https://api.netsapiens.com/ns-api/webroot/apidoc/.
 
+## Version
+
+Latest Version:  0.1.1
+Last Updated:    2025-02-06
+Author:          David Szpunar
+
+Version History:
+0.1.0 - 2025-01-14
+    * Initial release
+    * Basic functionality for accessing some NetSapiens API endpoints.
+0.1.1 - 2025-02-06
+    * Fix to properly return the Service Code of an extension for proper filtering of system devices.
+*     This means the `Get-NSDevice` function now returns the ServiceCode property from "srv_code" instead of "srvcode" in the API. 
+*     When `ServiceCode` (from `srv_code`) is non-blank, it's to indicates that the extension is a system device 
+*     rather than a normal extension.
+
 ## Installation
 
 Place the `NetSapiensAPI` module folder next to your script files if not installing through official PowerShell means. The module is required to be in the same directory as any scripts using it.

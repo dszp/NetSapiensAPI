@@ -4,7 +4,7 @@
     RootModule = 'NetSapiensAPI.psm1'
 
     # Version number of this module.
-    ModuleVersion = '0.1.0'
+    ModuleVersion = '0.1.1'
 
     # ID used to uniquely identify this module
     GUID = 'f8b0e1a0-5b0a-4b0a-9b0a-5b0a4b0a9b0a'
@@ -16,7 +16,7 @@
     CompanyName = ''
 
     # Copyright statement for this module
-    Copyright = '(c) 2025 David Szpunar. All rights reserved.'
+    Copyright = '(c) 2025 David Szpunar. All rights reserved. https://david.szpunar.com/'
 
     # Description of the functionality provided by this module
     Description = 'PowerShell module for interacting with NetSapiens API'
@@ -66,7 +66,7 @@
             ProjectUri = 'https://github.com/dszp/NetSapiensAPI'
 
             # ReleaseNotes of this module
-            ReleaseNotes = 'Version 0.1.0 of this module contains the initial release where most Get functions work and the New-NSDevice function works. It requires PowerShell 7.0 or later.'
+            ReleaseNotes = 'Version 0.1.1 of this module contains a fix to properly return the Service Code of an extension for proper filtering of system devices.'
         }
     }
 }

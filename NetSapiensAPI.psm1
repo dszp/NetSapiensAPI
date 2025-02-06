@@ -232,7 +232,7 @@ class NSSubscriber : NSBaseObject {
         $this.AreaCode = $rawData.area_code
         $this.Presence = $rawData.presence
         $this.DirList = ($rawData.dir_list -eq 'yes') -and $true -or ($rawData.dir_list -and $false)
-        $this.ServiceCode = $rawData.srvcode
+        $this.ServiceCode = $rawData.srv_code
         $this.AccountStatus = $rawData.account_status
         $this.Devices = @()
     }
